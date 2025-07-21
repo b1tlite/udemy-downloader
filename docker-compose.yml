@@ -1,0 +1,240 @@
+services:
+  # digital-marketing-guide:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/digital-marketing-guide:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/digital-marketing-guide --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  digital-marketing-strategy-course-wordpress-seo-instagram-facebook:
+    image: udemy-downloader:latest
+    volumes:
+      - /mnt/d/udemy/output/digital-marketing-strategy-course-wordpress-seo-instagram-facebook:/app/out_dir:rw
+    environment:
+      - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+    command: python main.py -c https://gunzilla.udemy.com/course/digital-marketing-strategy-course-wordpress-seo-instagram-facebook --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # unreal-engine-5-megacourse-create-games-in-ue5-blender:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/unreal-engine-5-megacourse-create-games-in-ue5-blender:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/unreal-engine-5-megacourse-create-games-in-ue5-blender --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # figma-ui-ux-design-advanced-tutorial:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/figma-ui-ux-design-advanced-tutorial:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/figma-ui-ux-design-advanced-tutorial --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # the-ai-engineer-course-complete-ai-engineer-bootcamp:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/the-ai-engineer-course-complete-ai-engineer-bootcamp:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/the-ai-engineer-course-complete-ai-engineer-bootcamp --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # the-ultimate-google-adwords-training-course:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/the-ultimate-google-adwords-training-course:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/the-ultimate-google-adwords-training-course --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # mastering-facebook-ads-2024-meta-ads-beginner-to-expert:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/mastering-facebook-ads-2024-meta-ads-beginner-to-expert:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/mastering-facebook-ads-2024-meta-ads-beginner-to-expert --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # an-entire-mba-in-1-courseaward-winning-business-school-prof:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/an-entire-mba-in-1-courseaward-winning-business-school-prof:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/an-entire-mba-in-1-courseaward-winning-business-school-prof --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # malware-analysis-intermediate:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/malware-analysis-intermediate:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/malware-analysis-intermediate --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # the-psychology-of-games-secrets-of-good-game-design:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/the-psychology-of-games-secrets-of-good-game-design:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/the-psychology-of-games-secrets-of-good-game-design --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # gdd-professional:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/gdd-professional:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/gdd-professional --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # the-complete-agentic-ai-engineering-course:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/the-complete-agentic-ai-engineering-course:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/the-complete-agentic-ai-engineering-course --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # unreal-engine-5one-course-solution-for-sky-weather-system:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/unreal-engine-5one-course-solution-for-sky-weather-system:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/unreal-engine-5one-course-solution-for-sky-weather-system --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # unreal-engine-ultimate-survival-horror-course:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/unreal-engine-ultimate-survival-horror-course:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/unreal-engine-ultimate-survival-horror-course --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # investing-for-beginners-the-complete-course-stocks-cryptocurrency-nft:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/investing-for-beginners-the-complete-course-stocks-cryptocurrency-nft:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/investing-for-beginners-the-complete-course-stocks-cryptocurrency-nft --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # investing-in-stocks:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/investing-in-stocks:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/investing-in-stocks --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # complete-investing-course-stocks-etfs-index-mutual-funds:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/complete-investing-course-stocks-etfs-index-mutual-funds:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/complete-investing-course-stocks-etfs-index-mutual-funds --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # how-to-create-a-first-person-shooter-in-unreal-engine:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/how-to-create-a-first-person-shooter-in-unreal-engine:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/how-to-create-a-first-person-shooter-in-unreal-engine --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # how-to-make-a-melee-combat-system-in-unreal-engine-5:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/how-to-make-a-melee-combat-system-in-unreal-engine-5:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/how-to-make-a-melee-combat-system-in-unreal-engine-5 --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # modeling-with-unreal-engine-5-no-maya-or-blender-needed:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/modeling-with-unreal-engine-5-no-maya-or-blender-needed:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/modeling-with-unreal-engine-5-no-maya-or-blender-needed --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # unreal-engine-5-one-course-solution-for-niagara-vfx:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/unreal-engine-5-one-course-solution-for-niagara-vfx:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/unreal-engine-5-one-course-solution-for-niagara-vfx --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # unreal-engine-motion-design:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/unreal-engine-motion-design:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/unreal-engine-motion-design --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # full-ai-system-in-unreal-engine5-and-cpp-beginners-to-advance:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/full-ai-system-in-unreal-engine5-and-cpp-beginners-to-advance:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/full-ai-system-in-unreal-engine5-and-cpp-beginners-to-advance --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # perceptive-ai-in-unreal-engine:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/perceptive-ai-in-unreal-engine:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/perceptive-ai-in-unreal-engine --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # unreal-engine-5-create-realistic-environments-pcg-system:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/unreal-engine-5-create-realistic-environments-pcg-system:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/unreal-engine-5-create-realistic-environments-pcg-system --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # ue5lighting:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/ue5lighting:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/ue5lighting --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # unreal-engine-pcg-english:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/unreal-engine-pcg-english:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/unreal-engine-pcg-english --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # unreal-engine-5-the-intermediate-course:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/unreal-engine-5-the-intermediate-course:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/unreal-engine-5-the-intermediate-course --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # unreal-engine-5-ui-design-advance-inventory-system-with-ue5:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/unreal-engine-5-ui-design-advance-inventory-system-with-ue5:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/unreal-engine-5-ui-design-advance-inventory-system-with-ue5 --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  # unrealengine5-c-one-course-solution-for-extending-editor:
+  #   image: udemy-downloader:latest
+  #   volumes:
+  #     - /mnt/d/udemy/output/unrealengine5-c-one-course-solution-for-extending-editor:/app/out_dir:rw
+  #   environment:
+  #     - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
+  #   command: python main.py -c https://gunzilla.udemy.com/course/unrealengine5-c-one-course-solution-for-extending-editor --download-assets --download-captions --download-quizzes --keep-vtt --lang all

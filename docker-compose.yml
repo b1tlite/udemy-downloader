@@ -9,4 +9,4 @@ services:
       - ./keyfile.json:/app/keyfile.json:ro
     env_file:
       - .env
-    command: python main.py -c $COURSE_URL
+    command: python main.py -c $COURSE_URL --download-assets --download-captions --download-quizzes --keep-vtt --lang all 

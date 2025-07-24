@@ -1,106 +1,73 @@
 services:
-  react-the-complete-guide-incl-redux:
+  iphonephotography:
     image: udemy-downloader:latest
     volumes:
-      - D:/udemy/output/react-the-complete-guide-incl-redux:/app/out_dir:rw
+      - D:/udemy/output/iphonephotography:/app/out_dir:rw
     environment:
-      - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
-    command: python main.py -c https://gunzilla.udemy.com/course/react-the-complete-guide-incl-redux --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
+    command: python main.py -c https://gunzilla.udemy.com/course/iphonephotography --download-assets --download-captions --download-quizzes --keep-vtt --lang all
 
-  the-ultimate-react-course:
+  unitycourse2:
     image: udemy-downloader:latest
     volumes:
-      - D:/udemy/output/the-ultimate-react-course:/app/out_dir:rw
+      - D:/udemy/output/unitycourse2:/app/out_dir:rw
     environment:
-      - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
-    command: python main.py -c https://gunzilla.udemy.com/course/the-ultimate-react-course --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
+    command: python main.py -c https://gunzilla.udemy.com/course/unitycourse2 --download-assets --download-captions --download-quizzes --keep-vtt --lang all
 
-  the-complete-web-development-bootcamp:
+  2d-rpg-alexdev:
     image: udemy-downloader:latest
     volumes:
-      - D:/udemy/output/the-complete-web-development-bootcamp:/app/out_dir:rw
+      - D:/udemy/output/2d-rpg-alexdev:/app/out_dir:rw
     environment:
-      - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
-    command: python main.py -c https://gunzilla.udemy.com/course/the-complete-web-development-bootcamp --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
+    command: python main.py -c https://gunzilla.udemy.com/course/2d-rpg-alexdev --download-assets --download-captions --download-quizzes --keep-vtt --lang all
 
-  react-typescript-the-practical-guide:
+  businessanalysis:
     image: udemy-downloader:latest
     volumes:
-      - D:/udemy/output/react-typescript-the-practical-guide:/app/out_dir:rw
+      - D:/udemy/output/businessanalysis:/app/out_dir:rw
     environment:
-      - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
-    command: python main.py -c https://gunzilla.udemy.com/course/react-typescript-the-practical-guide --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
+    command: python main.py -c https://gunzilla.udemy.com/course/businessanalysis --download-assets --download-captions --download-quizzes --keep-vtt --lang all
 
-  the-complete-javascript-course:
+  start-business-model-course:
     image: udemy-downloader:latest
     volumes:
-      - D:/udemy/output/the-complete-javascript-course:/app/out_dir:rw
+      - D:/udemy/output/start-business-model-course:/app/out_dir:rw
     environment:
-      - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
-    command: python main.py -c https://gunzilla.udemy.com/course/the-complete-javascript-course --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
+    command: python main.py -c https://gunzilla.udemy.com/course/start-business-model-course --download-assets --download-captions --download-quizzes --keep-vtt --lang all
 
-  100-days-of-code:
+  chief-ai-officer-program-lead-ai-strategy-governance:
     image: udemy-downloader:latest
     volumes:
-      - D:/udemy/output/100-days-of-code:/app/out_dir:rw
+      - D:/udemy/output/chief-ai-officer-program-lead-ai-strategy-governance:/app/out_dir:rw
     environment:
-      - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
-    command: python main.py -c https://gunzilla.udemy.com/course/100-days-of-code --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
+    command: python main.py -c https://gunzilla.udemy.com/course/chief-ai-officer-program-lead-ai-strategy-governance --download-assets --download-captions --download-quizzes --keep-vtt --lang all
 
-  the-python-mega-course:
+  artificial-intelligence-and-generative-ai-volume-1:
     image: udemy-downloader:latest
     volumes:
-      - D:/udemy/output/the-python-mega-course:/app/out_dir:rw
+      - D:/udemy/output/artificial-intelligence-and-generative-ai-volume-1:/app/out_dir:rw
     environment:
-      - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
-    command: python main.py -c https://gunzilla.udemy.com/course/the-python-mega-course --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
+    command: python main.py -c https://gunzilla.udemy.com/course/artificial-intelligence-and-generative-ai-volume-1 --download-assets --download-captions --download-quizzes --keep-vtt --lang all
 
-  fastapi-the-complete-course:
+  procedural-animation:
     image: udemy-downloader:latest
     volumes:
-      - D:/udemy/output/fastapi-the-complete-course:/app/out_dir:rw
+      - D:/udemy/output/procedural-animation:/app/out_dir:rw
     environment:
-      - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
-    command: python main.py -c https://gunzilla.udemy.com/course/fastapi-the-complete-course --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
+    command: python main.py -c https://gunzilla.udemy.com/course/procedural-animation --download-assets --download-captions --download-quizzes --keep-vtt --lang all
 
-  build-your-blockchain-az:
+  unreal-engine-5-advance-locomotion-system-als-intermediate:
     image: udemy-downloader:latest
     volumes:
-      - D:/udemy/output/build-your-blockchain-az:/app/out_dir:rw
+      - D:/udemy/output/unreal-engine-5-advance-locomotion-system-als-intermediate:/app/out_dir:rw
     environment:
-      - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
-    command: python main.py -c https://gunzilla.udemy.com/course/build-your-blockchain-az --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
+    command: python main.py -c https://gunzilla.udemy.com/course/unreal-engine-5-advance-locomotion-system-als-intermediate --download-assets --download-captions --download-quizzes --keep-vtt --lang all
 
-  the-complete-solidity-course-blockchain-zero-to-expert:
-    image: udemy-downloader:latest
-    volumes:
-      - D:/udemy/output/the-complete-solidity-course-blockchain-zero-to-expert:/app/out_dir:rw
-    environment:
-      - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
-    command: python main.py -c https://gunzilla.udemy.com/course/the-complete-solidity-course-blockchain-zero-to-expert --download-assets --download-captions --download-quizzes --keep-vtt --lang all
-
-  cryptocurrency:
-    image: udemy-downloader:latest
-    volumes:
-      - D:/udemy/output/cryptocurrency:/app/out_dir:rw
-    environment:
-      - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
-    command: python main.py -c https://gunzilla.udemy.com/course/cryptocurrency --download-assets --download-captions --download-quizzes --keep-vtt --lang all
-
-  3d-printing-from-start-to-finish:
-    image: udemy-downloader:latest
-    volumes:
-      - D:/udemy/output/3d-printing-from-start-to-finish:/app/out_dir:rw
-    environment:
-      - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
-    command: python main.py -c https://gunzilla.udemy.com/course/3d-printing-from-start-to-finish --download-assets --download-captions --download-quizzes --keep-vtt --lang all
-
-  learn-3d-printing:
-    image: udemy-downloader:latest
-    volumes:
-      - D:/udemy/output/learn-3d-printing:/app/out_dir:rw
-    environment:
-      - UDEMY_BEARER=K6lKP1VzcGxUOFsGN3aAcqubneRsKhszJ8ZTohUK
-    command: python main.py -c https://gunzilla.udemy.com/course/learn-3d-printing --download-assets --download-captions --download-quizzes --keep-vtt --lang all
-
-  

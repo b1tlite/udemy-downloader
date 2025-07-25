@@ -1,20 +1,4 @@
 services:
-  iphonephotography:
-    image: udemy-downloader:latest
-    volumes:
-      - D:/udemy/output/iphonephotography:/app/out_dir:rw
-    environment:
-      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
-    command: python main.py -c https://gunzilla.udemy.com/course/iphonephotography --download-assets --download-captions --download-quizzes --keep-vtt --lang all
-
-  unitycourse2:
-    image: udemy-downloader:latest
-    volumes:
-      - D:/udemy/output/unitycourse2:/app/out_dir:rw
-    environment:
-      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
-    command: python main.py -c https://gunzilla.udemy.com/course/unitycourse2 --download-assets --download-captions --download-quizzes --keep-vtt --lang all
-
   2d-rpg-alexdev:
     image: udemy-downloader:latest
     volumes:
@@ -23,51 +7,179 @@ services:
       - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
     command: python main.py -c https://gunzilla.udemy.com/course/2d-rpg-alexdev --download-assets --download-captions --download-quizzes --keep-vtt --lang all
 
-  businessanalysis:
+  seo-get-to-number1-in-google-search:
     image: udemy-downloader:latest
     volumes:
-      - D:/udemy/output/businessanalysis:/app/out_dir:rw
+      - D:/udemy/output/seo-get-to-number1-in-google-search:/app/out_dir:rw
     environment:
       - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
-    command: python main.py -c https://gunzilla.udemy.com/course/businessanalysis --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+    command: python main.py -c https://gunzilla.udemy.com/course/seo-get-to-number1-in-google-search --download-assets --download-captions --download-quizzes --keep-vtt --lang all
 
-  start-business-model-course:
+  microsoft-azure-from-zero-to-hero-the-complete-guide:
     image: udemy-downloader:latest
     volumes:
-      - D:/udemy/output/start-business-model-course:/app/out_dir:rw
+      - D:/udemy/output/microsoft-azure-from-zero-to-hero-the-complete-guide:/app/out_dir:rw
     environment:
       - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
-    command: python main.py -c https://gunzilla.udemy.com/course/start-business-model-course --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+    command: python main.py -c https://gunzilla.udemy.com/course/microsoft-azure-from-zero-to-hero-the-complete-guide --download-assets --download-captions --download-quizzes --keep-vtt --lang all
 
-  chief-ai-officer-program-lead-ai-strategy-governance:
+  git-and-github-bootcamp:
     image: udemy-downloader:latest
     volumes:
-      - D:/udemy/output/chief-ai-officer-program-lead-ai-strategy-governance:/app/out_dir:rw
+      - D:/udemy/output/git-and-github-bootcamp:/app/out_dir:rw
     environment:
       - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
-    command: python main.py -c https://gunzilla.udemy.com/course/chief-ai-officer-program-lead-ai-strategy-governance --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+    command: python main.py -c https://gunzilla.udemy.com/course/git-and-github-bootcamp --download-assets --download-captions --download-quizzes --keep-vtt --lang all
 
-  artificial-intelligence-and-generative-ai-volume-1:
+  machine-learning-data-science-foundations-masterclass:
     image: udemy-downloader:latest
     volumes:
-      - D:/udemy/output/artificial-intelligence-and-generative-ai-volume-1:/app/out_dir:rw
+      - D:/udemy/output/machine-learning-data-science-foundations-masterclass:/app/out_dir:rw
     environment:
       - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
-    command: python main.py -c https://gunzilla.udemy.com/course/artificial-intelligence-and-generative-ai-volume-1 --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+    command: python main.py -c https://gunzilla.udemy.com/course/machine-learning-data-science-foundations-masterclass --download-assets --download-captions --download-quizzes --keep-vtt --lang all
 
-  procedural-animation:
+  fundamentals-of-math:
     image: udemy-downloader:latest
     volumes:
-      - D:/udemy/output/procedural-animation:/app/out_dir:rw
+      - D:/udemy/output/fundamentals-of-math:/app/out_dir:rw
     environment:
       - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
-    command: python main.py -c https://gunzilla.udemy.com/course/procedural-animation --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+    command: python main.py -c https://gunzilla.udemy.com/course/fundamentals-of-math --download-assets --download-captions --download-quizzes --keep-vtt --lang all
 
-  unreal-engine-5-advance-locomotion-system-als-intermediate:
+  integralcalc-algebra:
     image: udemy-downloader:latest
     volumes:
-      - D:/udemy/output/unreal-engine-5-advance-locomotion-system-als-intermediate:/app/out_dir:rw
+      - D:/udemy/output/integralcalc-algebra:/app/out_dir:rw
     environment:
       - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
-    command: python main.py -c https://gunzilla.udemy.com/course/unreal-engine-5-advance-locomotion-system-als-intermediate --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+    command: python main.py -c https://gunzilla.udemy.com/course/integralcalc-algebra --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  math-with-python:
+    image: udemy-downloader:latest
+    volumes:
+      - D:/udemy/output/math-with-python:/app/out_dir:rw
+    environment:
+      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
+    command: python main.py -c https://gunzilla.udemy.com/course/math-with-python --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  trig-by-krista-king:
+    image: udemy-downloader:latest
+    volumes:
+      - D:/udemy/output/trig-by-krista-king:/app/out_dir:rw
+    environment:
+      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
+    command: python main.py -c https://gunzilla.udemy.com/course/trig-by-krista-king --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  linear-algebra-course:
+    image: udemy-downloader:latest
+    volumes:
+      - D:/udemy/output/linear-algebra-course:/app/out_dir:rw
+    environment:
+      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
+    command: python main.py -c https://gunzilla.udemy.com/course/linear-algebra-course --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  statistics-probability:
+    image: udemy-downloader:latest
+    volumes:
+      - D:/udemy/output/statistics-probability:/app/out_dir:rw
+    environment:
+      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
+    command: python main.py -c https://gunzilla.udemy.com/course/statistics-probability --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  geometry-basics:
+    image: udemy-downloader:latest
+    volumes:
+      - D:/udemy/output/geometry-basics:/app/out_dir:rw
+    environment:
+      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
+    command: python main.py -c https://gunzilla.udemy.com/course/geometry-basics --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  the-complete-internet-security-privacy-course-volume-1:
+    image: udemy-downloader:latest
+    volumes:
+      - D:/udemy/output/the-complete-internet-security-privacy-course-volume-1:/app/out_dir:rw
+    environment:
+      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
+    command: python main.py -c https://gunzilla.udemy.com/course/the-complete-internet-security-privacy-course-volume-1 --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  network-security-course:
+    image: udemy-downloader:latest
+    volumes:
+      - D:/udemy/output/network-security-course:/app/out_dir:rw
+    environment:
+      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
+    command: python main.py -c https://gunzilla.udemy.com/course/network-security-course --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  microsoft-power-bi-up-running-with-power-bi-desktop:
+    image: udemy-downloader:latest
+    volumes:
+      - D:/udemy/output/microsoft-power-bi-up-running-with-power-bi-desktop:/app/out_dir:rw
+    environment:
+      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
+    command: python main.py -c https://gunzilla.udemy.com/course/microsoft-power-bi-up-running-with-power-bi-desktop --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  a-complete-course-on-an-iot-system-design-and-development:
+    image: udemy-downloader:latest
+    volumes:
+      - D:/udemy/output/a-complete-course-on-an-iot-system-design-and-development:/app/out_dir:rw
+    environment:
+      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
+    command: python main.py -c https://gunzilla.udemy.com/course/a-complete-course-on-an-iot-system-design-and-development --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  arduino-for-beginners-complete-course:
+    image: udemy-downloader:latest
+    volumes:
+      - D:/udemy/output/arduino-for-beginners-complete-course:/app/out_dir:rw
+    environment:
+      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
+    command: python main.py -c https://gunzilla.udemy.com/course/arduino-for-beginners-complete-course --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  seo-tutorial:
+    image: udemy-downloader:latest
+    volumes:
+      - D:/udemy/output/seo-tutorial:/app/out_dir:rw
+    environment:
+      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
+    command: python main.py -c https://gunzilla.udemy.com/course/seo-tutorial --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  decodingdevops:
+    image: udemy-downloader:latest
+    volumes:
+      - D:/udemy/output/decodingdevops:/app/out_dir:rw
+    environment:
+      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
+    command: python main.py -c https://gunzilla.udemy.com/course/decodingdevops --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  ci-cd-devops:
+    image: udemy-downloader:latest
+    volumes:
+      - D:/udemy/output/ci-cd-devops:/app/out_dir:rw
+    environment:
+      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
+    command: python main.py -c https://gunzilla.udemy.com/course/ci-cd-devops --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  az900-azure:
+    image: udemy-downloader:latest
+    volumes:
+      - D:/udemy/output/az900-azure:/app/out_dir:rw
+    environment:
+      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
+    command: python main.py -c https://gunzilla.udemy.com/course/az900-azure --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  learn-ethical-hacking-from-scratch:
+    image: udemy-downloader:latest
+    volumes:
+      - D:/udemy/output/learn-ethical-hacking-from-scratch:/app/out_dir:rw
+    environment:
+      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
+    command: python main.py -c https://gunzilla.udemy.com/course/learn-ethical-hacking-from-scratch --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  full-mobile-hacking-course:
+    image: udemy-downloader:latest
+    volumes:
+      - D:/udemy/output/full-mobile-hacking-course:/app/out_dir:rw
+    environment:
+      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
+    command: python main.py -c https://gunzilla.udemy.com/course/full-mobile-hacking-course --download-assets --download-captions --download-quizzes --keep-vtt --lang all
 

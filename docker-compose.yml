@@ -1,8 +1,16 @@
 services:
-  web-design-in-figma-ui-ux:
+  midjourney-basic:
     image: udemy-downloader:latest
     volumes:
-      - D:/udemy/output/web-design-in-figma-ui-ux:/app/out_dir:rw
+      - D:/udemy/output/midjourney-basic:/app/out_dir:rw
     environment:
       - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
-    command: python main.py -c https://gunzilla.udemy.com/course/web-design-in-figma-ui-ux --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+    command: python main.py -c https://gunzilla.udemy.com/course/midjourney-basic --download-assets --download-captions --download-quizzes --keep-vtt --lang all
+
+  create-beautiful-art-with-ai:
+    image: udemy-downloader:latest
+    volumes:
+      - D:/udemy/output/create-beautiful-art-with-ai:/app/out_dir:rw
+    environment:
+      - UDEMY_BEARER=oKmTeiyg8yGb9dwcySWQpCZvK6zq0S5Jtx4IAxIX
+    command: python main.py -c https://gunzilla.udemy.com/course/create-beautiful-art-with-ai --download-assets --download-captions --download-quizzes --keep-vtt --lang all
